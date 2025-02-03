@@ -1,0 +1,107 @@
+.logo {
+    width: 100px; /* Adjust to your desired size */
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .navbar-custom {
+    background-color: #006400;
+  }
+  .navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-toggle:hover {
+  text-decoration: underline;
+  
+}
+.navbar-custom .nav-link:active,
+.navbar-custom .dropdown-toggle:active {
+  transform: scale(0.92);
+  transition: transform 0.1s ease;
+}
+
+.dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+  min-width: 12rem;
+}
+.carousel-img {
+  width: 100%; /* Ensures the image fills the carousel */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensures uniform size without distortion */
+}
+.card-container {
+  margin: 10px; /* Adds small space around the card */
+  padding: 5px; /* Ensures inner spacing */
+  max-width: 300px; /* Prevents excessive width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+}
+strong {
+  font-weight: 500; /* Reduce boldness (default is 700) */
+  font-size: 14px;  /* Reduce font size */
+  color: #333; /* Adjust color for softer appearance */
+}
+
+
+/* Navbar transition effects */
+.navbar-custom {
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Shadow effect when scrolled */
+.shadow-lg {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Search bar adjustments */
+.form-control {
+  width: 200px;
+}
+
+/* Dropdown hover effect */
+.navbar-nav .nav-link,
+.navbar-nav .nav-dropdown {
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-dropdown:hover {
+  color: #f8c102 !important; /* Highlight color */
+}
+
+.price{
+  color: #f8c102 !important;
+
+}
+.container-items {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: space-evenly;
+}
+
+
+
+img{
+  width: 100px;
+  height: 100px;
+}
+button:active{
+  transform: scale(0.92);
+  transition: transform 0.1s ease;
+}
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.cart-item div{
+  min-width: 250px;
+
+}
+
