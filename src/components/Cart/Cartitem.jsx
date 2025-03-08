@@ -22,8 +22,8 @@ function CartComponent(props) {
 
       <Card.Body>
         {/* Title & Price */}
-        <Card.Title>{props.title}</Card.Title>
-        <p className="price">{props.price}</p>
+        <Card.Title className='item-name'>{props.title}</Card.Title>
+        <p className="item-price">{props.price}</p>
 
         {/* Collapsible Details Section */}
         {expanded && (
