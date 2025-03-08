@@ -33,6 +33,7 @@
   width: 100%; /* Ensures the image fills the carousel */
   height: 300px; /* Set a fixed height */
   object-fit: cover; /* Ensures uniform size without distortion */
+  object-position: top;
 }
 
 
